@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.x",
+        "illuminate/support": "4.0.x",
         "pusher/pusher-php-server": "dev-serializer"
     },
     "autoload": {
