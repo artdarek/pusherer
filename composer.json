@@ -3,12 +3,13 @@
     "type": "library",    
     "description": "Pusher.com service provider for Laravel 4.",
     "keywords": ["Pusher","Pusher.com","Notifications","laravel","laravel4"],
-    "homepage": "http://github.com/Seldaek/monolog",    
+    "homepage": "https://github.com/artdarek/pusherer",    
     "license": "MIT",    
     "authors": [
         {
             "name": "Artdarek",
-            "email": "artdarek@gmail.com"            
+            "email": "artdarek@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
