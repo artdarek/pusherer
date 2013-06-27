@@ -1,4 +1,4 @@
-## Pusherer - Laravel 4 Service Provider
+### Pusherer - Laravel 4 Service Provider
 #### Pusherer is a simple Pusher.com service provider for Laravel 4. 
 ---
 
