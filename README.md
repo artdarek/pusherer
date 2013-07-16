@@ -22,7 +22,7 @@ Add Pusherer to your composer.json file:
 Use [composer](http://getcomposer.org) to install this package.
 
 ```
-   $ composer update
+$ composer update
 ```
 
 ### Registering the Package
@@ -73,17 +73,16 @@ your API key, App Id and Secret.
 ### Usage
 
 ```php
-	/**
-	 * Add notification
-	 *
-	 * @return Void
-	 */
-	public function index() {
-	
-		// Send notification to Pusher
-		$message = "This is just an example message!";
-		Pusherer::trigger('my-channel', 'my-event', array( 'message' => $message ));
-		
-	}
+/**
+ * Add notification
+ *
+ * @return Void
+ */
+public function index() {
 
+	// Send notification to Pusher
+	$message = "This is just an example message!";
+	Pusherer::trigger('my-channel', 'my-event', array( 'message' => $message ));
+	
+}
 ```
