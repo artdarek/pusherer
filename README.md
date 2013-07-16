@@ -9,6 +9,11 @@ any other Internet connected device.
 
 ---
 
+- [Instalation](#instalation)
+- [Registering the Package](#registering-the-package)
+- [Configuration](#Configuration)
+- [Usage](#usage)
+
 ## Installation
 
 Add Pusherer to your composer.json file:
