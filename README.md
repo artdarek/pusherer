@@ -21,7 +21,9 @@ Add Pusherer to your composer.json file:
 
 Use [composer](http://getcomposer.org) to install this package.
 
-    composer update
+```
+   $ composer update
+```
 
 ### Registering the Package
 
@@ -38,12 +40,12 @@ Add the Pusherer Service Provider to your config in ``app/config/app.php``:
 Run on the command line from the root of your project:
 
 ```
-php artisan config:publish artdarek/pusherer
+	$ php artisan config:publish artdarek/pusherer
 ```
 
 Set your pusher.com credentials in ``app/config/packages/artdarek/pusherer/config.php``
 
-```
+```php
 return array( 
 
 	/**
@@ -70,7 +72,7 @@ your API key, App Id and Secret.
 
 ### Usage
 
-```
+```php
 	/**
 	 * Add notification
 	 *
