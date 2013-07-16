@@ -9,7 +9,7 @@ any other Internet connected device.
 
 ---
 
-- [Instalation](#instalation)
+- [Installation](#installation)
 - [Registering the Package](#registering-the-package)
 - [Configuration](#Configuration)
 - [Usage](#usage)
