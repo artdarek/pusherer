@@ -40,7 +40,7 @@ Add the Pusherer Service Provider to your config in ``app/config/app.php``:
 Run on the command line from the root of your project:
 
 ```
-	$ php artisan config:publish artdarek/pusherer
+$ php artisan config:publish artdarek/pusherer
 ```
 
 Set your pusher.com credentials in ``app/config/packages/artdarek/pusherer/config.php``
