@@ -18,7 +18,7 @@ Add Pusherer to your composer.json file:
 
 ```
 "require": {
-	"artdarek/pusherer": "dev-master"
+	"artdarek/pusherer": "1.0.*"
 }
 ```
 
