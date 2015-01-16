@@ -27,9 +27,21 @@ return array(
 	 * App Secret
 	 */
 	'secret' => '',
+	/**
+	 * App Debug
+	 */
 	'debug' => false,
+	/**
+	 * App Host
+	 */
 	'host' => 'http://api.pusherapp.com',
+	/**
+	 * App Port
+	 */
 	'port' => 80,
+	/**
+	 * App Timeout
+	 */
 	'timeout' => 30,
 	
 
