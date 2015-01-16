@@ -38,10 +38,14 @@ class PushererServiceProvider extends ServiceProvider {
 		    	// connection credentials loaded from config
 	                $app_id = Config::get('pusherer::app_id');
 	                $app_key = Config::get('pusherer::key');		
-	                $app_secret = Config::get('pusherer::secret');				
+	                $app_secret = Config::get('pusherer::secret');
+	                $app_host = Config::get('pusherer::host');	
+	                $app_port = Config::get('pusherer::port');
+	                $app_debug = Config::get('pusherer::debug');
+	                $app_timeout = Config::get('pusherer::timeout');	
 
                 // connect to pusher
-                	$pusher = new Pusher($app_key, $app_secret , $app_id);
+                	$pusher = new Pusher($app_key, $app_secret , $app_id,$app_debug, $app_host, $app_port, $app_timeout);
 
         		// return pusher
 		        	return $pusher;
