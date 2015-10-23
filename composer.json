@@ -2,7 +2,7 @@
     "name": "artdarek/pusherer",
     "type": "library",    
     "description": "Pusher.com service provider for Laravel 4.",
-    "keywords": ["Pusher","Pusher.com","Notifications","laravel","laravel4"],
+    "keywords": ["Pusher","Pusher.com","Notifications", "realtime","laravel","laravel4"],
     "homepage": "https://github.com/artdarek/pusherer",    
     "license": "MIT",    
     "authors": [
@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "pusher/pusher-php-server": "2.1.*"
+        "pusher/pusher-php-server": "2.2.*"
     },
     "require-dev": {
         "illuminate/support": "4.0.*"
