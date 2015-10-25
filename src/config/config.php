@@ -11,6 +11,8 @@ return array(
 	| realtime bi-directional functionality via WebSockets to web and mobile 
 	| apps, or any other Internet connected device.
 	|
+	| NOTE: The options debug, host, port and timeout is deprecated.
+	| Please use this values inside the options field.
 	*/
 
 	/**
@@ -19,7 +21,7 @@ return array(
 	'app_id' => '', 
 
 	/**
-	 * App key
+	 * App Key
 	 */
 	'key' => '',
 
@@ -27,22 +29,12 @@ return array(
 	 * App Secret
 	 */
 	'secret' => '',
-	/**
-	 * App Debug
-	 */
-	'debug' => false,
-	/**
-	 * App Host
-	 */
-	'host' => 'http://api.pusherapp.com',
-	/**
-	 * App Port
-	 */
-	'port' => 80,
-	/**
-	 * App Timeout
-	 */
-	'timeout' => 30,
-	
 
+	/**
+	 * App Options
+	 * Avaliables: scheme, host, port, timeout, encrypted
+	 */
+	'options' => array(
+		'encrypted' => true
+	),
 );
