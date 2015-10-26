@@ -2,7 +2,7 @@
     "name": "artdarek/pusherer",
     "type": "library",    
     "description": "Pusher.com service provider for Laravel 4.",
-    "keywords": ["Pusher","Pusher.com","Notifications", "realtime","laravel","laravel4"],
+    "keywords": ["Pusher","Pusher.com","Notifications", "realtime","laravel","laravel4", "laravel 4"],
     "homepage": "https://github.com/artdarek/pusherer",    
     "license": "MIT",    
     "authors": [
@@ -20,9 +20,6 @@
         "illuminate/support": "4.0.*"
     },           
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Artdarek\\Pusherer": "src/"
         }
